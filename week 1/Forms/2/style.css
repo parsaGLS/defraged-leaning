@@ -1,0 +1,17 @@
+p{
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+    margin: 1px;
+}
+body{
+    padding: 50px;
+}
+input{
+    width: 100px;
+    margin: 5px;
+}
+li{
+    font-size: 20px;
+}
