@@ -1,7 +1,7 @@
 <?php
 
 namespace method;
-require_once "../vendor/autoload.php";
+require_once "./vendor/autoload.php";
 require_once "TripMethod.php";
 use parameter\TripParam;
 class BikeTripMethod extends TripMethod
