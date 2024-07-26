@@ -1,7 +1,7 @@
 <?php
 
 namespace mainHandler;
-require_once "../vendor/autoload.php";
+require_once "./vendor/autoload.php";
 use method\{BikeTripMethod,EconomicTripMethod,VipTripMethod};
 use Exception;
 use parameter\TripParam;
