@@ -1,0 +1,15 @@
+{
+    "name": "parsa/q3",
+    "autoload": {
+        "psr-4": {
+            "BikeStore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "parsa golestani",
+            "email": "parsa.golestany@gmail.com"
+        }
+    ],
+    "require": {}
+}

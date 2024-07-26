@@ -1,0 +1,16 @@
+{
+    "name": "parsa/q4",
+    "autoload": {
+        "psr-4": {
+            "clothing\\": "clothing/",
+            "discount\\": "discount/"
+        }
+    },
+    "authors": [
+        {
+            "name": "parsa golestani",
+            "email": "parsa.golestany@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,15 @@
+{
+    "name": "parsa/q2",
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "parsa golestani",
+            "email": "parsa.golestany@gmail.com"
+        }
+    ],
+    "require": {}
+}

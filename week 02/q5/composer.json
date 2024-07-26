@@ -1,0 +1,17 @@
+{
+    "name": "parsa/q5",
+    "autoload": {
+        "psr-4": {
+            "mainHandler\\": "mainHandler/",
+            "method\\": "method/",
+            "parameter\\": "parameter/"
+        }
+    },
+    "authors": [
+        {
+            "name": "parsa golestani",
+            "email": "parsa.golestany@gmail.com"
+        }
+    ],
+    "require": {}
+}
