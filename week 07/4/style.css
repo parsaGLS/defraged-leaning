@@ -1,0 +1,75 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: normal 16px sans-serif;
+}
+
+.screen {
+    height: 100vh;
+    background: rgb(40,67,184);
+    background: linear-gradient(90deg, rgba(40,67,184,1) 0%, rgba(23,118,198,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-box {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.main-box .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 330px;
+    right: 530px;
+
+    border: 5px solid coral;
+}
+
+.content{
+    /*margin-top: 12.5% ;*/
+    width: 75%;
+}
+.subject h1{
+    color: #343434;
+    margin: 2px 0px 12px 0px;
+}
+
+.date{
+    color: #999999;
+}
+.detail{
+    color: black;
+    font-size: 20px;
+}
+.readMore-button{
+    width: 75%;
+
+}
+.readMore-button button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background: rgb(255,151,103);
+    background: linear-gradient(90deg, rgba(255,151,103,1) 0%, rgba(252,102,100,1) 100%);
+    cursor: pointer;
+    color: #fcfcfc;
+    font-size: 18px;
+}

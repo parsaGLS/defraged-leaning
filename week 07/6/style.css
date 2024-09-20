@@ -1,0 +1,47 @@
+body{
+    font: normal 16px sans-serif;
+    margin: 0;
+    background: rgb(236,234,232);
+    background: linear-gradient(90deg, rgba(236,234,232,1) 0%, rgba(218,210,207,1) 100%);
+}
+.container{
+    height: 100vh;
+    margin: 20px 150px;
+}
+.white-box{
+    position: relative;
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    float: right;
+}
+.content{
+    width: 250px;
+    min-height: 300px;
+    margin:100px 50px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    width: 100px;
+    height: 1px;
+    background-color: #343434;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.learn-more button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px grey solid;
+    cursor: pointer;
+}
+.image{
+    position: absolute;
+    top: 200px;
+    left: -200px;
+}
