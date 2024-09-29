@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    /*tr:nth-child(even) {*/
+    /*    background-color: #dddddd;*/
+    /*}*/
+</style>
+<body>
+<table id="table">
+    <tr>
+        <th>phone</th>
+        <th>firstname</th>
+        <th>lastname</th>
+        <th>action</th>
+    </tr>
+</table>
+<form id="form" action="" style="margin: 100px 100px 5px 100px">
+
+    <label for="firstname"> firstname: </label>
+    <input type="text" name="firstname" id="firstname">
+
+    <label for="lastname"> lastname: </label>
+    <input type="text" name="lastname" id="lastname">
+
+    <label for="phone"> phone: </label>
+    <input type="tel" name="phone" id="phone">
+
+    <input  type="submit" value="submit">
+</form>
+<div class="msg" id="msg">
+
+</div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
